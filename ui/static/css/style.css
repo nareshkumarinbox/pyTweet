@@ -1,0 +1,109 @@
+.container {
+    min-width: 95%;
+}
+.user-container {
+    background-color: #e0e0e0;
+    border: 2px solid #ccc !important;
+}
+.main-tweets{
+    width:100%;
+    border-collapse: separate;
+}
+.re-tweets-main-container{
+    max-width: 100% !important;
+    border-left:1px solid #ccc;
+    margin-left: 40px;
+}
+.re-tweets-container{
+    width:100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.re-tweets-container tr td{
+    margin: 0px;
+    border-top: 0px !important;
+}
+.input100 {
+    margin: 5px;
+}
+.btn-round {
+    border-radius: 50%;
+}
+.pull-right {
+    float:right;
+    vertical-align:middle;
+}
+.bold {
+    font-weight: bold;
+}
+.no-p-l, .no-p-lr {
+    padding-left: 0px !important;
+}
+.no-p-r,.no-p-lr {
+    padding-right: 0px !important;
+}
+.p-l-5 {
+  padding-left: 5px !important;
+}
+.p-10 {
+    padding: 10px !important;
+}
+.p-b-10 {
+    padding-bottom: 10px !important;
+}
+.m-r-10 {
+    margin-right: 10px !important;
+}
+.m-b-10 {
+    margin-bottom: 10px !important;
+}
+
+.error-msg {
+    padding: 5px;
+    color: red;
+    min-height: 50px;
+}
+
+.display-block {
+    display: block;
+}
+.tweet-img-td {
+    width: 50px;
+}
+.tweet-img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius:20%;
+}
+button {
+    margin: 5px;
+}
+.user-icon {
+   text-transform: capitalize;
+   font-size: 20px;
+}
+
+.main-tweets tr {
+    margin: 0px;
+}
+
+.main-tweets tr td{
+    margin: 0px;
+    border-top: 1px solid #ccc;
+}
+.tweet-content {
+    padding-bottom: 0px !important;
+}
+.tweet-action {
+   width:200px !important;
+ }
+.tweet-likes {
+    width: 100%;
+    font-weight:bold;
+    margin-top: 5px;
+}
+.date-span {
+    color: red;
+}

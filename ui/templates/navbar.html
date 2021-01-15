@@ -1,0 +1,11 @@
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="">PyTweet</a>
+     <div id="before_login">
+           <a onclick="load_register_page()" class="m-r-10"> Register</a>
+            <a  onclick="load_login_page()"> Login</a>
+      </div>
+     <div id="after_login">
+            <span class="bold m-r-10"> Hello, {{user.username }} </span>
+            <a onclick="logout()"> Logout </a>
+    </div>
+</nav>

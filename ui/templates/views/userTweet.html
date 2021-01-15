@@ -1,0 +1,27 @@
+<div id="userList" class="row no-p-lr"></div>
+<div class="row">
+    <div id="tweets" class="col-md-9 no-p-l card"></div>
+    <div class="col-md-3 p-l-5 card">
+     <form id="crateTweet_form" class="login-form validate-form"  style="width: 100%">
+         <span class="bold p-b-10">
+             <span id="editSpan"></span><span id="reTweetSpan"> Re-</span>Tweet
+         </span>
+         <div style="width: 100%">
+             <input name="parentId" id="parent_id"  type="hidden">
+             <input name="id" id="id"  type="hidden">
+             <span class="bold"> Tweet: </span>
+             <textarea id="content" name="content" class="input100" rows="4" cols="35" placeholder="Tweet"></textarea>
+                 <input type="file" id="image" name="image">
+             <div>
+                <button class="login-form-btn btn btn-primary" type="submit">
+                    Submit
+                </button>
+                  <button id="reTweetCancelBtn" class="login-form-btn btn btn-danger" type="button" onclick="setReTweet(null, null)">
+                    Cancel
+                </button>
+            </div>
+         </div>
+     </form>
+</div>
+</div>
+<script type="text/javascript" src="ui/static/js/userTweet.js"></script>

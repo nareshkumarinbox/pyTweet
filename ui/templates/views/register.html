@@ -1,0 +1,30 @@
+{% block content %}
+ <div class="row">
+         <h1>Register</h1>
+ </div>
+<div class="row reg">
+    <form id="register_form"  class="col-md-12">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-md-2 bold label"> First Name: </div>
+            <div class="col-md-10"><input class="input100" type="text" name="first_name" placeholder="First Name"/></div></div>
+        <div class="row">
+            <div class="col-md-2 bold label"> Last Name: </div>
+            <div class="col-md-10"><input class="input100" type="text" name="last_name" placeholder="Last Name"/></div></div>
+        <div class="row">
+            <div class="col-md-2 bold label"> User Name: </div>
+            <div class="col-md-10"><input class="input100" type="text" name="username" placeholder="User Name"/></div></div>
+        <div class="row">
+            <div class="col-md-2 bold label"> Email Id: </div>
+            <div class="col-md-10"><input class="input100" type="email" name="email" placeholder="Email id"/></div></div>
+        <div class="row">
+            <div class="col-md-2 bold label"> Password: </div>
+            <div class="col-md-10"><input class="input100" type="password" name="password" placeholder="Password"/></div></div>
+        <div class="row">
+            <div class="col-md-2 bold label"> Confirm Password: </div>
+            <div class="col-md-10"><input class="input100" type="password" name="password2" placeholder="Confirm Password"/></div></div>
+        <input type="submit" name="Button" value="Submit">
+    </form>
+</div>
+<script type="text/javascript" src="ui/static/js/register.js"></script>
+{% endblock %}

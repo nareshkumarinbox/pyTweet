@@ -1,0 +1,10 @@
+<div class="row error-msg display-block" id="error-msg"></div>
+{% block content %}
+    <div id="replaceMe">
+        Replace Me !
+    </div>
+    <script>
+        var is_authenticated = '{{user.is_authenticated}}';
+    </script>
+    <script type="text/javascript" src="ui/static/js/main.js"></script>
+{% endblock %}
